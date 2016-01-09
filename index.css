@@ -1,0 +1,55 @@
+.right {
+	color: green;
+}
+
+.wrong {
+	color: darkred;
+}
+
+header {
+	border: solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+header h1 {
+	font-family: Helvetica;
+	font-size: 35px;
+}
+
+body {
+	padding-top: 20px;
+	background-color: #ff0000;
+	max-width: 80%;
+	margin: 0 auto;
+	background-image: url(http://www.clker.com/cliparts/C/m/R/8/C/K/small-red-heart-with-transparent-background.svg);
+}
+
+p {
+	font-size: 22px;
+	color: black;
+  border: 1px solid black;
+  background-color: #fd2626;
+}
+
+.butts {
+	border: 1px solid black;
+	background-color: #fd2626;
+}
+
+a:hover {
+	background-color: #fd2626;
+}
+
+footer {
+	padding-top: 300px;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+footer p {
+	border: 1px solid black;
+	background-color: #fd2626;
+	text-align: center;
+}
