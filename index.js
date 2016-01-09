@@ -37,8 +37,10 @@ function q4() {
   if (ans4.toLowerCase() === 'three' || ans4 === '3') {
     result4.textContent = ans4 + " Great! You've been paying attention! Not that this detail was an important part of class... still! Good job!";
     gameEnd()
+    result4.className = 'right'
   } else {
     result4.textContent = ans4 + " Oooooh, that is wrong! Try again!";
+    result4.className = 'wrong'
     q4()
   }
 }
